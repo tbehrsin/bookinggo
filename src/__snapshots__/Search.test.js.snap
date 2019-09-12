@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search cancels fetch promise 1`] = `
+<label
+  htmlFor="search"
+>
+  <p>
+    Pick-up Location
+  </p>
+  <div
+    className="Search-input"
+  >
+    <input
+      autoFocus={true}
+      id="search"
+      onChange={[Function]}
+      placeholder="city, airport, station, region and district..."
+      type="text"
+      value="M"
+    />
+  </div>
+</label>
+`;
+
+exports[`Search displays "No results found" 1`] = `
+<label
+  htmlFor="search"
+>
+  <p>
+    Pick-up Location
+  </p>
+  <div
+    className="Search-input"
+  >
+    <input
+      autoFocus={true}
+      id="search"
+      onChange={[Function]}
+      placeholder="city, airport, station, region and district..."
+      type="text"
+      value="xgdgfgd"
+    />
+    <ol
+      className="Search-results"
+    >
+      <li>
+        No results found
+      </li>
+    </ol>
+  </div>
+</label>
+`;
+
+exports[`Search does not search with 1 character 1`] = `
+<label
+  htmlFor="search"
+>
+  <p>
+    Pick-up Location
+  </p>
+  <div
+    className="Search-input"
+  >
+    <input
+      autoFocus={true}
+      id="search"
+      onChange={[Function]}
+      placeholder="city, airport, station, region and district..."
+      type="text"
+      value="M"
+    />
+  </div>
+</label>
+`;
+
+exports[`Search hides results box 1`] = `
+<label
+  htmlFor="search"
+>
+  <p>
+    Pick-up Location
+  </p>
+  <div
+    className="Search-input"
+  >
+    <input
+      autoFocus={true}
+      id="search"
+      onChange={[Function]}
+      placeholder="city, airport, station, region and district..."
+      type="text"
+      value="M"
+    />
+  </div>
+</label>
+`;
+
+exports[`Search matches snapshot 1`] = `
+<label
+  htmlFor="search"
+>
+  <p>
+    Pick-up Location
+  </p>
+  <div
+    className="Search-input"
+  >
+    <input
+      autoFocus={true}
+      id="search"
+      onChange={[Function]}
+      placeholder="city, airport, station, region and district..."
+      type="text"
+      value=""
+    />
+  </div>
+</label>
+`;
+
+exports[`Search searches with 2 or more characters and displays 6 results 1`] = `
+<label
+  htmlFor="search"
+>
+  <p>
+    Pick-up Location
+  </p>
+  <div
+    className="Search-input"
+  >
+    <input
+      autoFocus={true}
+      id="search"
+      onChange={[Function]}
+      placeholder="city, airport, station, region and district..."
+      type="text"
+      value="Ma"
+    />
+    <ol
+      className="Search-results"
+    >
+      <li>
+        Manchester Airport
+      </li>
+      <li>
+        Manchester
+      </li>
+      <li>
+        Manchester - Piccadilly Train Station
+      </li>
+      <li>
+        Ronaldsway Airport
+      </li>
+      <li>
+        Oldham
+      </li>
+      <li>
+        Bolton
+      </li>
+    </ol>
+  </div>
+</label>
+`;
