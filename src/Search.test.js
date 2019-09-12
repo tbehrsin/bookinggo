@@ -9,9 +9,9 @@ describe('Search', () => {
   const mockJsonPromise = Promise.resolve({
     results: {
       docs: [
-        { name: 'Manchester Airport'},
+        { name: 'Manchester Airport' },
         { name: 'Manchester' },
-        { name: 'Manchester - Piccadilly Train Station'},
+        { name: 'Manchester - Piccadilly Train Station' },
         { name: 'Ronaldsway Airport' },
         { name: 'Oldham' },
         { name: 'Bolton' }
@@ -138,7 +138,7 @@ describe('Search', () => {
 
     act(() => {
       input.props.onChange({ target: { value: 'M' } });
-    })
+    });
 
     expect(global.fetch).toHaveBeenCalledTimes(1);
 
